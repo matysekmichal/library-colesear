@@ -26,6 +26,11 @@ namespace Library.vendor.Observer
             _subscribers.ForEach(subscriber => subscriber.Update());
         }
 
+        public IList<IObserver> GetSubscribers()
+        {
+            return _subscribers;
+        }
+
         public abstract void Publish();
     }
 }
