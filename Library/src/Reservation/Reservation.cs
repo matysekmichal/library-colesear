@@ -12,5 +12,10 @@ namespace Library.Reservation
         {
             throw new NotImplementedException();
         }
+
+        public void Feature02()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
