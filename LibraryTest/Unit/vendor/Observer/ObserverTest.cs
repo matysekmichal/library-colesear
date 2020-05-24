@@ -37,12 +37,6 @@ namespace LibraryTest.Unit.vendor.Observer
             _observer.UnregisterObserver(subscriber2);
             Assert.AreEqual(0, _observer.GetSubscribers().Count);
         }
-
-        [Test]
-        public void it_can_publish()
-        {
-
-        }
     }
 
     public class ObserverAbstractMock : Library.vendor.Observer.Observer
