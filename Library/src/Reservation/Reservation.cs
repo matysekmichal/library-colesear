@@ -8,6 +8,11 @@ namespace Library.Reservation
         public string LastName { get; set; }
         public Book.Book Book { get; set; }
 
+        public void Feature01()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Feature02()
         {
             throw new NotImplementedException();
